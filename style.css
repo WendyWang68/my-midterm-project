@@ -1,0 +1,259 @@
+body#page1{
+  background-color: #ECC5E2;
+}
+
+body#page2{
+  background-color: #A5D7ED;
+}
+
+body#page3{
+  background-color: #B8BFE5;
+}
+
+body#page4{
+  background-color: #D9D4CF;
+}
+
+.picture7 {
+  width: 300x;
+  height: 257px;
+  position: relative;
+  animation-name: dog;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dog {
+  0%   { left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+h1 {
+  color: black;
+  font-size: 65px;
+  text-align: center;
+  font-family: "papyrus", fantasy;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 35px;
+  color: #0A2556;
+  text-align: center;
+  font-family: "papyrus", fantasy;;
+}
+
+.poem{
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  font-family: "georgia", serif;
+}
+
+.myDiv {
+  text-align: left;
+  letter-spacing: 0.8px;
+  word-spacing: 2px;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 25px;
+}
+
+.myDiv1 {
+  background: linear-gradient(to bottom, #ccffff 0%, #cc99ff 100%);
+  border: 5px outset #4D5354;
+  background-color: #C2F1E7;
+  text-align: center;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.myDiv2 {
+  font-size: 20px;
+  display: block;
+  text-align: left;
+  margin: 30px;
+}
+
+.myDiv3 {
+  background-image: url("background.jpeg");
+  opacity: inherit;
+  text-align: left;
+  letter-spacing: 0.8px;
+  word-spacing: 2px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height:25px;
+  padding: 50px;
+}
+
+.myDiv4 {
+  opacity: inherit;
+  text-align: left;
+  letter-spacing: 0.8px;
+  word-spacing: 2px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 25px;
+}
+
+.myDiv5 {
+  text-align: left;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 25px;
+}
+
+.myDiv6{
+  background-color: #CDB9F0;
+  text-align: left;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 30px;
+  line-height: 25px;
+}
+
+.myDiv7{
+  font-style: italic;
+  color: #523089;
+  text-align: left;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.picture1 {
+  width: 800px;
+  height: 534px;
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picture2{
+  width: 500px;
+  height: 390px;
+  display: flex;
+  margin:20px;
+}
+
+.picture3{
+  width: 585px;
+  height: 390px;
+  display: flex;
+}
+
+.picture4{
+  width: 500px;
+  height: 334px;
+  display: flex;
+}
+
+.picture5{
+  width: 600px;
+  height: 390px;
+  display: flex;
+}
+
+.picture6{
+  width: 100%;
+  display: block;
+}
+
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .image {
+        padding-right: 20px;
+        flex-basis: 100%;
+        order: 2;
+      }
+      .image1{
+        padding-right: 20px;
+        flex-basis: 100%;
+      }
+      .text {
+        background-color: #A1D5F1;
+        padding-left: 20px;
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: : 20px;
+        padding-right: 20px;
+      }
+
+.container1{
+        position: relative;
+        text-align: center;
+      }
+      .centered {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+p + p {
+  margin-top: 35px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4566D3;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+  font-family: "monaco", monospace;
+}
+
+li a:hover:not(.active) {
+  background-color: #115;
+}
